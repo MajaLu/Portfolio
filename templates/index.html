@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+{% include 'navbar.html' %}
+
+
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Maja Glibo</h1>
+                <h3 class="mb-5"><em>Python Developer</em></h3>
+                <a class="btn btn-light btn-xl" href="{{url_for('about')}}">About Me</a>
+            </div>
+        </header>
+
+
+        <!-- Call to Action-->
+        <section class="content-section text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
+                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+            </div>
+        </section>
+
+
+
+{% endblock content%}

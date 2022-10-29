@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<!-- Wrapper container -->
+<div class="container py-4">
+  <h1>Send me a message :)</h1>
+
+  <!-- Bootstrap 5 starter form -->
+  <form id="contactForm" action="https://formsubmit.co/21961a656339c3cf6b28f9d3d31593c1 " method="POST" enctype="multipart/form-data">
+
+    <!-- Name input -->
+    <div class="mb-3 contact">
+      <input class="form-control" id="name" name="name" type="text" placeholder="Name" />
+    </div>
+
+    <!-- Email address input -->
+    <div class="mb-3 contact">
+      <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" />
+    </div>
+
+    <!-- Message input -->
+    <div class="mb-3 contact">
+      <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+    </div>
+
+    <!-- Form submit button -->
+    <div class="d-grid">
+      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</div>
+
+{% endblock content%}

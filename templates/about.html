@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+{% include 'navbar.html' %}
+
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Self Taught Python Developer. Loves Web Development and Data Analysis. </h2>
+                        <p class="lead mb-3">
+                            Experienced in HTML, CSS, Bootstrap, Flask, SQL, Pandas, Selenium, Beautiful Soup...
+                            Completed 100 days of Python Course, below you can enjoy some of my projects :)
+                        </p>
+                        <!-- <a class="btn btn-dark btn-xl" href="#services">What We Offer</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Portfolio-->
+<section class="content-section" id="portfolio">
+    <div class="container px-4 px-lg-5">
+        <div class="content-section-heading text-center">
+            <h2 class="mb-5">Awesome Projects</h2>
+        </div>
+        <div class="row gx-0">
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="https://to-do-list16.herokuapp.com">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="h2">To_Do_List</div>
+                            <p class="mb-0">Simple web app to make your life easier.</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="https://source.unsplash.com/random/?data"
+                        style="width:400px;height:400px;" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#!">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="h2">E-Commerce Web Site</div>
+                            <p class="mb-0">Tkinter GUI, Turtle.</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="https://source.unsplash.com/random/?games"
+                        style="width:400px;height:400px;" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="https://tindog-bootstrap.herokuapp.com">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="h2">Tin Dog</div>
+                            <p class="mb-0">Tinder for Dogs</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="https://source.unsplash.com/random/?web"
+                        style="width:400px;height:400px;" alt="..." />
+                </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="https://vermillion-cendol-dd71a4.netlify.app/templates/">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <div class="h2">Weather App</div>
+                            <p class="mb-0">Amazing weather app using APIs</p>
+                        </div>
+                    </div>
+                    <img class="img-fluid" src="https://source.unsplash.com/random/?bots"
+                        style="width:400px;height:400px;" alt="..." />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content%}
