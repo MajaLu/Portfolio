@@ -101,11 +101,15 @@ hr:not([size]) {
   height: 1px;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+.h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
+}
+
+h6 {
+  margin-bottom: 2rem;
 }
 
 h1, .h1 {
@@ -3019,6 +3023,12 @@ textarea.form-control-lg {
 .btn:hover {
   color: #212529;
 }
+
+a.btn.btn-outline-warning.btn-xl:hover {
+  color: white;
+}
+
+
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(29, 128, 159, 0.25);
@@ -11304,18 +11314,12 @@ html {
 }
 
 #portfolio{
-  background-color: #AA8B56;
+  background-color: #F8EDE3;
 }
-
-/* .content-section-a {
-  background-color: #473437;
-  padding-top: 7.5rem;
-  padding-bottom: 3.5rem;
-} */
 
 
 .content-section {
-  background-color: #4E6C50;
+  background-color: #BDD2B6;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
